@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.muhammadkevindefianto_1202150080_modul2.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/pilihmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Menu"
+        android:layout_gravity="center" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/dineIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dine In"/>
+        <RadioButton
+            android:id="@+id/takeAway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Away"/>
+    </RadioGroup>
+
+    <Button
+        android:onClick="Pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:text="Pesan Sekarang"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

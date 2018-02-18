@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.android.muhammadkevindefianto_1202150080_modul2.TakeAway">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="Identitas Pemesanan"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Phone"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Catatan"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:editable="false"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="text"
+        android:editable="false"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pilihPesan"
+        android:text="Pilih Pesanan"/>
+
+
+</LinearLayout>

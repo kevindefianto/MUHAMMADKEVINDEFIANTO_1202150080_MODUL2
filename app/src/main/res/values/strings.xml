@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MUHAMMADKEVINDEFIANTO_1202150080_MODUL2</string>
+
+    <string-array name="label_meja">
+        <item> Meja 1</item>
+        <item> Meja 2</item>
+        <item> Meja 3</item>
+        <item> Meja 4</item>
+        <item> Meja 5</item>
+        <item> Meja 6</item>
+        <item> Meja 7</item>
+    </string-array>
+
+    <array name="menu_images">
+        <item>@drawable/img_ayamtumbuk</item>
+        <item>@drawable/img_ayamgoreng</item>
+        <item>@drawable/img_kulitnyoss</item>
+        <item>@drawable/img_tempepenyet</item>
+        <item>@drawable/img_kulitabb</item>
+        <item>@drawable/img_tumbukabb</item>
+        <item>@drawable/img_gorengabb</item>
+    </array>
+
+    <string-array name="menu_nama">
+        <item>Ayam Tumbuk</item>
+        <item>Ayam Goreng</item>
+        <item>Kulit Nyoss</item>
+        <item>Tempe Penyet</item>
+        <item>Paket Kulit ABB</item>
+        <item>paket Tumbuk ABB</item>
+        <item>Paket Goreng ABB</item>
+    </string-array>
+
+    <string-array name="harga">
+        <item>Rp 9.500</item>
+        <item>Rp 9.500</item>
+        <item>Rp 8.500</item>
+        <item>Rp 6.000</item>
+        <item>Rp 13.500</item>
+        <item>Rp 13.500</item>
+        <item>Rp 13.500</item>
+    </string-array>
+    <string-array name="komposisi" >
+        <item>ayam tumbuk bersaus</item>
+        <item>ayam goreng bersaus </item>
+        <item>kulit goreng bersaus</item>
+        <item>tempe bersambal</item>
+        <item>Nasi uduk kulit goreng, tempe, kol goreng</item>
+        <item>Nasi uduk ayam tumbuk, tempe, kol goreng</item>
+        <item>Nasi uduk ayam goreng, tempe, kol goreng</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
